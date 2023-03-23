@@ -138,7 +138,7 @@ const handleReset = () =>{
 const handleCellClick = (e) =>{
     const classList = e.target.classList;
 
-    if(classList[1]==='x' || classList==='o' || gameIsLive==false){
+    if(classList[1]==='x' || classList[1]==='o' || gameIsLive==false){
         return;
     }
 
